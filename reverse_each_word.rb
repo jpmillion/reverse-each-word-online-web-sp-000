@@ -7,5 +7,5 @@ end
 
 def reverse_each_word(sentence)
   sentence_to_array = sentence.to_a
-  sentence_to_array.collect {|word| word.reverse}
+  sentence_to_array.join.collect {|word| word.reverse}
   
